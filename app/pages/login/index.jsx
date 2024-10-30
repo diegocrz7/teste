@@ -1,14 +1,14 @@
 import React from 'react';
+import Logo from  '../../../assets/logo.png'
 import { Button, Image, Text, TextInput, TouchableOpacity, View } from 'react-native';
-// import Logo from '../../';
 import { style } from '../login/style'; // Fixed import statement
 
 const Login = () => {
   return (
     <View style={style.container}>
-      {/* <View style={style.boxTop}>
+      <View style={style.boxTop}>
         <Image style={style.imageLogo} source={Logo} resizeMode='contain' />
-      </View> */}
+      </View>
       <View style={style.title}>
         <Text style={style.titleTextLeft}>LOGIN</Text>
         <Text style={style.titleTextRight}>Create new account</Text>
